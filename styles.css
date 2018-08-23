@@ -1,0 +1,24 @@
+body {
+ 
+  
+}
+
+h1 {
+display: flex;
+justify-content: center;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+
+}
+
+.side_a {
+  
+  background-color: red;
+}
+
+.side_b {
+  
+}
