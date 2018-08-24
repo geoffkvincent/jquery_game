@@ -17,16 +17,18 @@ border: 3px solid black;
 
 .side_a {
   
-  border:1px solid black;
+  
+  /* border:1px solid black; */
 }
 
 .side_b {
-  border:1px solid black;
+  /* border:1px solid black; */
 }
 
 .side_a_choice {
  display: flex;
  justify-content: flex-start;
+ 
 }
 
 .side_b_choice {
@@ -40,6 +42,7 @@ border: 3px solid black;
   height: 150px;
   width: 250px;
   border: 3px solid red;
+  
 }
 
 .individual_b {
@@ -48,3 +51,35 @@ border: 3px solid black;
   border: 3px solid red;
 }
 
+#cage_a {
+  background-image: url("images/cage.jpeg"); 
+  
+  /* border: 5px solid blue; */
+}
+
+#fieri_a {
+  background-image: url("images/fieri.jpeg");
+}
+
+#hoff_a {
+  background-image: url("images/hoff.jpeg");
+}
+
+#cage_b {
+  background-image: url("images/cage.jpeg"); 
+  
+  /* border: 5px solid blue; */
+}
+
+#fieri_b {
+  background-image: url("images/fieri.jpeg");
+}
+
+#hoff_b {
+  background-image: url("images/hoff.jpeg");
+}
+
+button {
+  height: 200px;
+  width: 250px;
+}
