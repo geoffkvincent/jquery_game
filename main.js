@@ -15,8 +15,13 @@ var side_a = document.getElementByClassName('side_a')
 var individual_a = document.getElementByClassName('individual_a')
 document.write(random)
 random = image_array[Math.floor(Math.random() * image_array.length)]
+random = image_array[Math.floor(Math.random() * image_array.length)]
 // random = options_b[Math.floor(Math.random() * options_b.length)]
-individual_a.innerHTML = random 
+
+random.innerHTML
+
+
+
 function side_a () {
 random = image_array[Math.floor(Math.random() * image_array.length)]
 
