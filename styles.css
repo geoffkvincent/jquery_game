@@ -6,19 +6,45 @@ body {
 h1 {
 display: flex;
 justify-content: center;
+border: 3px solid black;
 }
 
 .game {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 
 }
 
 .side_a {
   
-  background-color: red;
+  border:1px solid black;
 }
 
 .side_b {
+  border:1px solid black;
+}
+
+.side_a_choice {
+ display: flex;
+ justify-content: flex-start;
+}
+
+.side_b_choice {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
   
 }
+
+.individual_a {
+  height: 150px;
+  width: 250px;
+  border: 3px solid red;
+}
+
+.individual_b {
+  height: 150px;
+  width: 250px;
+  border: 3px solid red;
+}
+
